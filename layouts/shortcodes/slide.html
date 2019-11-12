@@ -17,7 +17,7 @@
   {{- $scratch.Add "slides" "" -}}
 {{- end -}}
 {{- $params := . -}}
-{{- $noPrefix := slice "id" "class" -}}
+{{- $noPrefix := slice "id" "class" "style" -}}
 {{- $noOutput := slice "content" "template" -}}
 {{- $template := $params.Get "template" -}}
 {{- if $template -}}
